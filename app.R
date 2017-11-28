@@ -26,6 +26,7 @@ ui<-fluidPage(
 ######## Server part #########
 server<-function(input,output,session){
   width<-800
+  
   height<-400
   
   ret<-reactive({
